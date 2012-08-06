@@ -41,7 +41,7 @@ submit.onProxy('click', function(e) {
 });
 
 clear.onProxy('click', function(){
-  db.removeCollection('todo');
+  db.clearCollection('todo');
   list.setData([]);
 });
 
